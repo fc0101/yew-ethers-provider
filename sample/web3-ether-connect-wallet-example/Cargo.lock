@@ -1100,6 +1100,7 @@ name = "web3-ether-connect-wallet-example"
 version = "0.1.0"
 dependencies = [
  "yew",
+ "yew-ethers-provider",
 ]
 
 [[package]]
@@ -1133,6 +1134,15 @@ dependencies = [
  "wasm-bindgen-futures",
  "web-sys",
  "yew-macro",
+]
+
+[[package]]
+name = "yew-ethers-provider"
+version = "0.1.0"
+dependencies = [
+ "gloo-console 0.3.0",
+ "wasm-bindgen",
+ "yew",
 ]
 
 [[package]]

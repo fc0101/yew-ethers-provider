@@ -1,9 +1,12 @@
 use yew::prelude::*;
+use yew_ethers_provider::ConnectButton;
 
 #[function_component(App)]
 fn app() -> Html {
     html! {
-        <h1>{ "Hello World" }</h1>
+        <div>
+            <ConnectButton> </ConnectButton>
+        </div>
     }
 }
 
