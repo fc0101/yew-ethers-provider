@@ -1712,6 +1712,7 @@ dependencies = [
 name = "web3-ether-connect-wallet-example"
 version = "0.1.0"
 dependencies = [
+ "gloo-console 0.3.0",
  "yew",
  "yew-ethers-provider",
 ]

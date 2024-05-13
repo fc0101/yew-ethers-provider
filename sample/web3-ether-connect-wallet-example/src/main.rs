@@ -1,11 +1,14 @@
 use yew::prelude::*;
-use yew_ethers_provider::ConnectButton;
+use yew_ethers_provider::{ConnectButton, ConnectWalletProvider};
 
 #[function_component(App)]
 fn app() -> Html {
+
     html! {
         <div>
-            <ConnectButton> </ConnectButton>
+            <ConnectWalletProvider>
+                <ConnectButton />
+            </ConnectWalletProvider>
         </div>
     }
 }
